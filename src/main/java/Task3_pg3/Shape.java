@@ -4,7 +4,10 @@ public abstract class Shape {
     protected String color;
     protected boolean isFilled;
 
-    public Shape() {}
+    public Shape() {
+        this.color = "unknown";
+        this.isFilled = false;
+    }
 
     public Shape(String color, boolean isFilled) {
         this.color = color;

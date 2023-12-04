@@ -1,4 +1,7 @@
-package Task1_pg1;
+package Task1_pg1.Refacere;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Point2D {
 
@@ -6,6 +9,8 @@ public class Point2D {
     protected float y;
 
     public Point2D() {
+        this.x = 0;
+        this.y = 0;
     }
 
     public Point2D(float x, float y) {
@@ -34,14 +39,17 @@ public class Point2D {
         return "(" + x + ", " + y + ")";
     }
 
-    public Float[] getXY() {
-        Float[] result = {x, y};
+    public List<Float> getXY() {
+        List<Float> result = new ArrayList<>();
+        result.add(x);
+        result.add(y);
         return result;
     }
 
     public void setXY(float x, float y) {
-        this.x = x;
-        this.y = y;
+        setX(x);
+        setY(y);
     }
+
 
 }

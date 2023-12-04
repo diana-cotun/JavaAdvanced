@@ -7,7 +7,7 @@ public interface StreamingPlayer {
 
     //     public abstract - default pentru metode in Interfete
     //     se pot defini si metode statice si default
-    void playMovie(String movie);
+    public abstract void playMovie(String movie);
 
     void stopMovie();
 

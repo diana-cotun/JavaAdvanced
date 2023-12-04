@@ -10,4 +10,9 @@ public class PrimeStreamingPlayer implements StreamingPlayer{
     public void stopMovie() {
         System.out.println("Stopping movie on Prime");
     }
+
+    @Override
+    public double getSubscriptionPrice() {
+        return StreamingPlayer.super.getSubscriptionPrice();
+    }
 }

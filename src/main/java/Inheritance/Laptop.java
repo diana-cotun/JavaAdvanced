@@ -10,11 +10,11 @@ public class Laptop extends Computer {
         this.battery = battery;
     }
 
-    //    public Laptop(String os, int ram, int storage, String battery) {
-//        super(os, ram, storage);
-//        this.battery = battery;
-//        System.out.println("Inside laptop constructor");
-//    }
+        public Laptop(String os, int ram, int storage, String battery) {
+        super(os, ram, storage);
+        this.battery = battery;
+        System.out.println("Inside laptop constructor");
+    }
 
     public void printLaptopInfo() {
         System.out.println("OS is: " + os);

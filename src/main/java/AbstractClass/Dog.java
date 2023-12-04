@@ -11,4 +11,12 @@ public class Dog extends Animal {
     public void makeSound() {
         System.out.println("Uff uff");
     }
+
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }

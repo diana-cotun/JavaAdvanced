@@ -1,7 +1,7 @@
 package Task4_pg11;
 
-public interface Validator {
-    public boolean validate(User input);
+public interface Validator<T> {
+    boolean validate(T input);
 
 
 

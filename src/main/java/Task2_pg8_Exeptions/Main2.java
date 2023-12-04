@@ -1,4 +1,8 @@
-package Exceptions;
+package Task2_pg8_Exeptions;
+
+import Task2_pg8_Exeptions.Book;
+import Task2_pg8_Exeptions.BookRepository;
+import Task2_pg8_Exeptions.NoBookFoundException;
 
 public class Main2 {
     public static void main(String[] args) {
@@ -14,7 +18,7 @@ public class Main2 {
 
         bookRepository.printAllBooks();
 
-        deleteBook(bookRepository, 1);
+        deleteBook(bookRepository, 4);
         bookRepository.printAllBooks();
 
         System.out.println();
@@ -45,4 +49,5 @@ public class Main2 {
             System.out.println(e.getMessage());
         }
     }
+//    try with resources !!! incepand cu java 7
 }

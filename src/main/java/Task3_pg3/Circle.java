@@ -6,8 +6,11 @@ public class Circle extends Shape{
 
     public Circle() {
     }
+
+//    1. Constructor
 //    non-arguments constructor which will set: the color field value to unknown, the isFilled field value to false,
 //    and the radius field value to 1.
+//    2. Metoda toString ???
 
     public Circle(String color, boolean isFilled, double radius) {
         super(color, isFilled);

@@ -23,6 +23,7 @@ public class Main {
             System.out.println("Finally");
         }
         System.out.println("Aftre try-catch");
+        System.out.println();
 
         try {
             simulateException();

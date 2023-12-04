@@ -8,10 +8,17 @@ public class Main {
 
         Shape circleX = new Circle("blue", false, 3);
         System.out.println("Circle perimeter is: " + circleX.getPerimeter());
-//        circleX.getArea(); -> de ce nu pot apela metoda pe obiectul Circle de Shape ???
+
 
         Shape rectangle = new Rectangle(2, 2);
         System.out.println("Rectangle area is: " + rectangle.getArea());
+
+
+//        String textblock = """
+//         Print a bulleted list: \u2022 first point;
+//                                \u2022 second point.""";
+//
+//        System.out.println(textblock);
 
     }
 }
